@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare - Cadastro</title>
+
+    <!-- LINK - CSS BOOTSTRAP -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous"
+    >
+
+    <!-- PASTA CSS PROJETO -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- LINK - JAVASCRIPT DO BOOTSTRAP -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"
+    ></script>
+
+    
+</head>
+<body class="fundo">
+    
+    <a href="./index.html" style = "text-decoration: none;"> <h1> PetCare </h1> </a>
+    
+    <!-- FORMULARIO LOGIN -->
+    <form>
+        
+        <div style="display: flex;">
+
+            <div class = "form-group" style="width: 33%; padding: 10px; text-align: center;">
+                <label for="nome"> NOME </label>
+                <input type="text" id="nome" name="nome" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+            <div class = "form-group" style="width: 33%; padding: 10px; text-align: center;">
+                <label for="cpf"> -  CPF  - </label>
+                <input type="text" id="cpf" name="cpf" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+            <div class = "form-group" style="width: 33%; padding: 10px; text-align: center;">
+                <label for="telefone"> TELEFONE </label>
+                <input type="text" id="telefone" name="telefone" class="form-control-sm" style="min-width: 400px">
+            </div>
+        
+        </div>
+
+        <br>
+
+        <div style="display: flex;">
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="cidade"> CIDADE </label>
+                <input type="text" id="cidade" name="cidade" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="bairro"> BAIRRO </label>
+                <input type="text" id="bairro" name="bairro" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="cep"> -- CEP -- </label>
+                <input type="text" id="cep" name="cep" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+        </div>
+
+        <br>
+
+        <div style="display: flex;">
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="rua"> LOGRADOURO </label>
+                <input type="text" id="rua" name="rua" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="numero"> NUMERO </label>
+                <input type="text" id="numero" name="numero" class="form-control-sm" style="min-width: 400px">
+            </div>
+    
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="complemento"> COMPLEMENTO </label>
+                <input type="text" id="complemento" name="complemento" class="form-control-sm" style="min-width: 400px">
+            </div>
+  
+        </div>
+
+        <br>
+
+        <div style="display: flex;">
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="username"> NOME DE USUÁRIO </label>
+                <input type="text" id="username" name="username" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="crmv"> -CRMV- </label>
+                <input type="text" id="crmv" name="crmv" class="form-control-sm" style="min-width: 400px">
+            </div>
+    
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="cpf_supervisor"> CFP - SUPERVISOR </label>
+                <input type="text" id="cpf_supervisor" name="cpf_supervisor" class="form-control-sm" style="min-width: 400px">
+            </div>
+  
+        </div>
+
+        <br>
+
+        <div style="display: flex;">
+
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="email"> -EMAIL- </label>
+                <input type="email" id="email" name="email" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="senha"> SENHA </label>
+                <input type="password" id="senha" name="senha" class="form-control-sm" style="min-width: 400px">
+            </div>
+
+    
+            <div class = "form-group" style="width: 50%; padding: 10px; text-align: center;">
+                <label for="nascimento"> DATA DE NASCIMENTO </label>
+                <input type="date" id="nascimento" name="nascimento" class="form-control-sm" style="min-width: 400px">
+            </div>
+  
+        </div>
+
+        <br>
+
+        <div style="margin-left: 100px; margin-right: 100px; text-align: center;">
+            <select class="form-select">
+                <option selected>Selecione o tipo de usuário</option>
+                <option value="1"> Cliente </option>
+                <option value="2"> Médico </option>
+                <option value="3"> Administrador </option>
+            </select>
+        </div>
+
+        <br>
+
+        <input type="submit" value="Cadatrar" class="cadastrar">
+
+    </form>
+
+    
+    
+    <!-- RODAPE -->
+    <footer class="py-3 my-4" id="rodape">
+        <div style = "padding-top: 20px;">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted" style="text-align: center;">Email <br>
+                        petcare@gmail.com </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted" style="text-align: center;">Telefone <br>
+                        (41) 91234-4321 </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre Nós</a></li>
+            </ul>
+        </div>
+        <p class="text-center text-muted">© 2023 Company, Inc</p>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>

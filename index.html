@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetCare - Login</title>
+
+    <!-- LINK - CSS BOOTSTRAP -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+        crossorigin="anonymous"
+    >
+
+    <!-- PASTA CSS PROJETO -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- LINK - JAVASCRIPT DO BOOTSTRAP -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"
+    ></script>
+
+    
+</head>
+<body class="fundo">
+    
+    <h1> PetCare </h1>
+    
+    <!-- FORMULARIO LOGIN -->
+    <form class="form-inline" role="form" style="text-align: center; padding-top: 50px;">
+        <div class="form-group">
+            <label for="email"> EMAIL </label>
+            <input type="email" class="form-control-sm" style="min-width: 400px" id="email" placeholder="Insira seu Email">
+        </div>
+        <br> <br>
+        <div class="form-group">
+            <label for="password"> SENHA </label>
+            <input type="password" class="form-control-sm" style="min-width: 400px" id="pwd" placeholder="Insira sua Senha">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary" style="padding: 10px 30px; border-radius: 100px;"> <a href="./tela_inicial.html" style = "text-decoration: none; color: white"> Logar </a></button> </button> <br><br>
+        <button type="button" class="btn btn-secondary btn-lg" style="border-radius: 100px;"> <a href="./cadastro.html" style = "text-decoration: none; color: white"> Criar conta </a></button>
+    </form>
+    
+    <!-- RODAPE -->
+    <footer class="py-3 my-4" id="rodape">
+        <div style = "padding-top: 20px;">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted" style="text-align: center;">Email <br>
+                        petcare@gmail.com </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted" style="text-align: center;">Telefone <br>
+                        (41) 91234-4321 </a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Sobre Nós</a></li>
+            </ul>
+        </div>
+        <p class="text-center text-muted">© 2023 Company, Inc</p>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
